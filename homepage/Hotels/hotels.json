@@ -1,0 +1,167 @@
+[
+  {
+    "name": "The Himalayan View",
+    "city": "Nainital",
+    "state": "Uttarakhand",
+    "price": 3200,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=900&q=80",
+    "wifi": true,
+    "breakfast": true,
+    "pool": false
+  },
+  {
+    "name": "Mountain Retreat",
+    "city": "Mussoorie",
+    "state": "Uttarakhand",
+    "price": 2800,
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=900&q=80",
+    "wifi": true,
+    "breakfast": true,
+    "pool": true
+  },
+  {
+    "name": "River Side Resort",
+    "city": "Rishikesh",
+    "state": "Uttarakhand",
+    "price": 4100,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1445019980597-93fa8acb246c?auto=format&fit=crop&w=900&q=80",
+    "wifi": true,
+    "breakfast": true,
+    "pool": true
+  },
+  {
+    "name": "Royal Palace",
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "price": 2200,
+    "rating": 4.2,
+    "image": "https://images.unsplash.com/photo-1522798514-97ceb8c4f1c8?auto=format&fit=crop&w=900&q=80",
+    "wifi": true,
+    "breakfast": true,
+    "pool": true
+  },
+  {
+    "name": "Desert Stay",
+    "city": "Jaisalmer",
+    "state": "Rajasthan",
+    "price": 2500,
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=900&q=80",
+    "wifi": true,
+    "breakfast": false,
+    "pool": false
+  },
+  {
+    "name": "Snow Peak",
+    "city": "Manali",
+    "state": "Himachal Pradesh",
+    "price": 2800,
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=900&q=80",
+    "wifi": true,
+    "breakfast": true,
+    "pool": false
+  },
+  {
+    "name": "Valley Inn",
+    "city": "Shimla",
+    "state": "Himachal Pradesh",
+    "price": 3100,
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=900&q=80",
+    "wifi": true,
+    "breakfast": false,
+    "pool": true
+  },
+  {
+    "name": "Beach Paradise",
+    "city": "Goa",
+    "state": "Goa",
+    "price": 3400,
+    "rating": 4.6000000000000005,
+    "image": "https://images.unsplash.com/photo-1522798514-97ceb8c4f1c8?auto=format&fit=crop&w=900&q=80",
+    "wifi": true,
+    "breakfast": true,
+    "pool": false
+  },
+  {
+    "name": "Sea Breeze",
+    "city": "Goa",
+    "state": "Goa",
+    "price": 3700,
+    "rating": 4.2,
+    "image": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=900&q=80",
+    "wifi": true,
+    "breakfast": false,
+    "pool": false
+  },
+  {
+    "name": "Backwater Resort",
+    "city": "Alleppey",
+    "state": "Kerala",
+    "price": 4000,
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=900&q=80",
+    "wifi": true,
+    "breakfast": true,
+    "pool": true
+  },
+  {
+    "name": "Tea Garden",
+    "city": "Munnar",
+    "state": "Kerala",
+    "price": 4300,
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=900&q=80",
+    "wifi": true,
+    "breakfast": false,
+    "pool": false
+  },
+  {
+    "name": "Lake View",
+    "city": "Udaipur",
+    "state": "Rajasthan",
+    "price": 4600,
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1522798514-97ceb8c4f1c8?auto=format&fit=crop&w=900&q=80",
+    "wifi": true,
+    "breakfast": true,
+    "pool": false
+  },
+  {
+    "name": "Forest Retreat",
+    "city": "Jim Corbett",
+    "state": "Uttarakhand",
+    "price": 4900,
+    "rating": 4.6000000000000005,
+    "image": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=900&q=80",
+    "wifi": true,
+    "breakfast": false,
+    "pool": true
+  },
+  {
+    "name": "Hill Crown",
+    "city": "Dharamshala",
+    "state": "Himachal Pradesh",
+    "price": 5200,
+    "rating": 4.2,
+    "image": "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=900&q=80",
+    "wifi": true,
+    "breakfast": true,
+    "pool": false
+  },
+  {
+    "name": "Temple View",
+    "city": "Haridwar",
+    "state": "Uttarakhand",
+    "price": 5500,
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=900&q=80",
+    "wifi": true,
+    "breakfast": false,
+    "pool": false
+  }
+]

@@ -1,0 +1,242 @@
+ 
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "DM Sans", Arial, Helvetica, sans-serif;
+    background: #f8f9fa;
+    color: var(--ink);
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    scroll-margin-top: 80px;
+}
+
+      /* ==========================================================
+   NAVBAR
+========================================================== */
+
+.site-nav {
+        background: rgba(255, 255, 255, 0.929);
+        min-height: 76px;
+        transition:
+          background 180ms ease,
+          box-shadow 180ms ease;
+      }
+      .site-nav.scrolled {
+        background: rgba(255, 255, 255, 0.97);
+        box-shadow: 0 8px 26px rgba(18, 48, 53, 0.12);
+      }
+      .navbar-brand {
+        color: #000000 !important;
+        font-weight: 700;
+      }
+      .site-nav.scrolled .navbar-brand,
+      .site-nav.scrolled .nav-link {
+        color: var(--ink) !important;
+      }
+      .brand-pin {
+        align-items: center;
+        background: blue;
+        border-radius: 20%;
+        color: #fff;
+        display: inline-flex;
+        height: 32px;
+        justify-content: center;
+        margin-right: 0.55rem;
+        width: 32px;
+      }
+
+/* ==========================================================
+   NAVIGATION LINKS
+========================================================== */
+
+.nav-link {
+        color: #000000 !important;
+        font-size: 0.9rem;
+        font-weight: 700;
+        margin: 0 0.25rem;
+        padding: 0.55rem 0.7rem !important;
+      }
+      .nav-link:hover,
+      .nav-link.active {
+        color: var(--orange) !important;
+      }
+      .nav-link.active {
+        text-decoration: underline;
+        text-decoration-color: var(--orange);
+        text-underline-offset: 7px;
+        text-decoration-thickness: 2px;
+      }
+
+
+/* ==========================================================
+   NAVBAR TOGGLER
+========================================================== */
+
+.navbar-toggler {
+        border-color: rgba(255, 255, 255, 0.5);
+      }
+      .site-nav.scrolled .navbar-toggler {
+        border-color: var(--line);
+      }
+ navbar-toggler {
+        border: 1px solid var(--line) !important;
+        border-radius: 6px;
+        padding: 0.38rem 0.55rem;
+      }
+      .navbar-toggler:focus {
+        box-shadow: 0 0 0 0.18rem rgba(15, 107, 86, 0.2);
+      }
+
+/* ==========================================================
+   BUTTONS
+========================================================== */
+
+.btn-route {
+        background: blue;
+        border: 1px solid blue;
+        border-radius: 6px;
+        color: #fff;
+        font-size: 0.9rem;
+        font-weight: 700;
+        padding: 0.72rem 1.05rem;
+        transition:
+          transform 180ms ease,
+          background 180ms ease;
+      }
+      .btn-route:hover {
+        background: #cf6930;
+        border-color: #cf6930;
+        color: #fff;
+        transform: translateY(-2px);
+      }
+      .btn-outline-route {
+        border: 1px solid var(--sky);
+        border-radius: 6px;
+        color: var(--sky);
+        font-size: 0.9rem;
+        font-weight: 700;
+        padding: 0.7rem 1.05rem;
+      }
+      .btn-outline-route:hover {
+        background: var(--sky);
+        color: #fff;
+      }
+.btn-brand {
+        background: #0d6efd;
+        border-color: blue;
+        color: #f8f4f4;
+      }
+      .btn-brand:hover {
+        background: #236cf4;
+        border-color: #f7be51;
+      }
+      .btn-outline-light {
+        border-radius: 6px;
+        font-weight: 700;
+        padding: 0.78rem 1.22rem;
+      }
+      /* hero section */
+      .hero {
+        height: 320px;
+        background:
+          linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+          url("/image/hotelbg.png")
+           center/cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;}
+        
+      .search {
+        background: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        width: min(700px, 92%);
+      }
+      .card img {
+        height: 220px;
+        object-fit: cover;
+      }
+      .price {
+        color: #198754;
+        font-weight: bold;
+      }
+
+      
+/* ==========================================================
+   FOOTER
+========================================================== */
+
+  .footer{
+    width:100%;
+    background:#0d6efd;
+    color:white;
+    margin-top: 30px;
+    padding:60px 0 20px;
+}
+      .footer-brand {
+        color: #fff;
+        font-family: "Playfair Display", serif;
+        font-size: 1.6rem;
+      }
+      .footer-heading {
+        color: #fff;
+        font-size: 0.78rem;
+        font-weight: 700;
+        letter-spacing: 0.1em;
+        margin-bottom: 1rem;
+        text-transform: uppercase;
+      }
+      footer p,
+      footer a {
+        color: #c4d7d5;
+        font-size: 0.9rem;
+        line-height: 1.7;
+      }
+      footer a:hover {
+        color: #fff;
+      }
+      .footer-links {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      .footer-links li {
+        margin-bottom: 0.55rem;
+      }
+      .footer-bottom {
+        border-top: 1px solid rgba(255, 255, 255, 0.17);
+        color: #91b1ae;
+        font-size: 0.82rem;
+        margin-top: 3rem;
+        padding-top: 1.2rem;
+      }
+      
+      @media (max-width: 991.98px) {
+        .site-nav {
+          background: rgba(15, 41, 47, 0.76);
+        }
+        .site-nav.scrolled {
+          background: rgba(255, 255, 255, 0.97);
+        }
+        .navbar-collapse {
+          background: #fff;
+          border-radius: 8px;
+          margin-top: 0.7rem;
+          padding: 0.7rem;
+        }
+        .navbar-collapse .nav-link {
+          color: var(--ink) !important;
+        }
+    }

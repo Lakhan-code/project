@@ -1,0 +1,446 @@
+/* ==========================================================
+   GLOBAL STYLES
+========================================================== */
+
+:root {
+    --ink: #1b3035;
+    --muted: #65777a;
+    --sky: #26728a;
+    --sky-dark: #16556a;
+    --orange: #0c0c0c;
+    --mist: #e9f3f2;
+    --paper: #ffffff;
+    --line: #d5e3e2;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "DM Sans", Arial, Helvetica, sans-serif;
+    background: #f8f9fa;
+    color: var(--ink);
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    scroll-margin-top: 80px;
+}
+
+
+/* ==========================================================
+   NAVBAR
+========================================================== */
+
+.site-nav {
+        background: rgba(255, 255, 255, 0.929);
+        min-height: 76px;
+        transition:
+          background 180ms ease,
+          box-shadow 180ms ease;
+      }
+      .site-nav.scrolled {
+        background: rgba(255, 255, 255, 0.97);
+        box-shadow: 0 8px 26px rgba(18, 48, 53, 0.12);
+      }
+      .navbar-brand {
+        color: #000000 !important;
+        font-weight: 700;
+      }
+      .site-nav.scrolled .navbar-brand,
+      .site-nav.scrolled .nav-link {
+        color: var(--ink) !important;
+      }
+      .brand-pin {
+        align-items: center;
+        background: blue;
+        border-radius: 20%;
+        color: #fff;
+        display: inline-flex;
+        height: 32px;
+        justify-content: center;
+        margin-right: 0.55rem;
+        width: 32px;
+      }
+
+/* ==========================================================
+   NAVIGATION LINKS
+========================================================== */
+
+.nav-link {
+        color: #000000 !important;
+        font-size: 0.9rem;
+        font-weight: 700;
+        margin: 0 0.25rem;
+        padding: 0.55rem 0.7rem !important;
+      }
+      .nav-link:hover,
+      .nav-link.active {
+        color: var(--orange) !important;
+      }
+      .nav-link.active {
+        text-decoration: underline;
+        text-decoration-color: var(--orange);
+        text-underline-offset: 7px;
+        text-decoration-thickness: 2px;
+      }
+
+
+/* ==========================================================
+   NAVBAR TOGGLER
+========================================================== */
+
+.navbar-toggler {
+        border-color: rgba(255, 255, 255, 0.5);
+      }
+      .site-nav.scrolled .navbar-toggler {
+        border-color: var(--line);
+      }
+ navbar-toggler {
+        border: 1px solid var(--line) !important;
+        border-radius: 6px;
+        padding: 0.38rem 0.55rem;
+      }
+      .navbar-toggler:focus {
+        box-shadow: 0 0 0 0.18rem rgba(15, 107, 86, 0.2);
+      }
+
+/* ==========================================================
+   BUTTONS
+========================================================== */
+
+.btn-route {
+        background: blue;
+        border: 1px solid blue;
+        border-radius: 6px;
+        color: #fff;
+        font-size: 0.9rem;
+        font-weight: 700;
+        padding: 0.72rem 1.05rem;
+        transition:
+          transform 180ms ease,
+          background 180ms ease;
+      }
+      .btn-route:hover {
+        background: #cf6930;
+        border-color: #cf6930;
+        color: #fff;
+        transform: translateY(-2px);
+      }
+      .btn-outline-route {
+        border: 1px solid var(--sky);
+        border-radius: 6px;
+        color: var(--sky);
+        font-size: 0.9rem;
+        font-weight: 700;
+        padding: 0.7rem 1.05rem;
+      }
+      .btn-outline-route:hover {
+        background: var(--sky);
+        color: #fff;
+      }
+.btn-brand {
+        background: #0d6efd;
+        border-color: blue;
+        color: #f8f4f4;
+      }
+      .btn-brand:hover {
+        background: #236cf4;
+        border-color: #f7be51;
+      }
+      .btn-outline-light {
+        border-radius: 6px;
+        font-weight: 700;
+        padding: 0.78rem 1.22rem;
+      }
+/* ==========================================================
+   HERO IMAGE
+========================================================== */
+
+.image1 {
+  display: block;
+  width: 100%;
+    height: 800px;
+    /* object-fit: cover; */
+}
+
+
+/* ==========================================================
+   JOURNEY BAR
+========================================================== */
+
+.journey-bar {
+   margin-top: 20px;
+        background: var(--paper);
+        border-bottom: 1px solid var(--line);
+      }
+      .journey-item {
+        align-items: center;
+        border-right: 1px solid var(--line);
+        display: flex;
+        gap: 0.75rem;
+        min-height: 96px;
+        padding: 1rem 1.25rem;
+      }
+      
+     .journey-item span {
+    color: var(--muted);
+    display: block;
+    font-size: 0.73rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.journey-icon {
+    align-items: center;
+    /* background: var(--mist); */
+    border-radius: 50%;
+    color: var(--sky);
+    /* display: inline-flex; */
+    flex: 0 0 39px;
+    height: 39px;
+    justify-content: center;
+}
+      .journey-item strong {
+        display: block;
+        font-size: 0.91rem;
+        margin-top: 0.18rem;
+      }
+
+
+
+
+
+/* ==========================================================
+   SECTION HEADINGS
+========================================================== */
+
+.text-center{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+}
+
+.section-title{
+    text-align:center;
+    margin:50px 0 30px;
+    font-weight:bold;
+}
+ .section-title {
+        font-family: "Playfair Display", serif;
+        font-size: clamp(100px);
+         /* clamp(2.1rem, 4vw, 3.5rem); */
+        line-height: 1.06;
+        margin: 0.7rem 0 1rem;
+      }
+.section-copy {
+        color: var(--muted);
+        line-height: 1.8;
+      }
+       .eyebrow {
+        color: var(--orange);
+        font-size: 0.76rem;
+        font-weight: 700;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+      }
+
+/* ==========================================================
+   CARDS & GALLERY
+========================================================== */
+.card{
+    border-radius: 5px;
+     /* border: 2px solid rgba(157, 157, 157, 0.622); */
+     position: relative;
+     bottom: 0px;
+    transition: all 0.5s;
+}
+.card:hover{
+    box-shadow: 0px 10px 10px 4px rgba(157, 157, 157, 0.618);
+         bottom: 10px;
+}
+.card img{
+    height:220px;
+    object-fit:cover;
+}
+.gallery img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+    border-radius:10px;
+}
+
+
+/* ==========================================================
+   WEATHER & BUDGET
+========================================================== */
+
+.weather-box,.budget-box{
+    background:#fff;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,.1);
+}
+.planner {
+        background: var(--paper);
+        margin-top: 30px;
+      }
+      .budget-grid {
+    background: #1972f8;
+    border: 3px solid #0d6efd;
+    border-radius: 8px;
+    padding: 2rem;
+}
+      .budget-grid label {
+        color: #fcfafa;
+        font-size: 0.74rem;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+      
+      .budget-grid.form-control {
+        border: 1px solid transparent;
+        border-radius: 5px;
+        min-height: 50px;
+      }
+      
+      /* .form-control:focus */
+      .budget-grid.form-control:focus  {
+        border-color: var(--orange);
+        box-shadow: 0 0 0 0.2rem rgba(228, 125, 61, 0.25);
+
+      }
+      .budget-total {
+        align-items: center;
+        border-top: 1px solid rgba(255, 255, 255, 0.35);
+        color: #fbfafa;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1.5rem;
+        padding-top: 1.25rem;
+      }
+      .btn-route {
+    background-color: #0044ff9d;
+    color: white;
+    border: none;
+}
+      .budget-total span {
+        font-family: "Playfair Display", serif;
+        font-size: 2rem;
+      }
+/* ==========================================================
+   MAP SECTION
+========================================================== */
+
+.map-shell {
+        border: 8px solid var(--paper);
+        box-shadow: 0 16px 35px rgba(27, 48, 53, 0.11);
+      }
+      .map-shell iframe {
+        border: 0;
+        display: block;
+        height: 440px;
+        width: 100%;
+      }
+
+/* ==========================================================
+   FOOTER
+========================================================== */
+
+  .footer{
+    width:100%;
+    background:#0d6efd;
+    color:white;
+    margin-top: 30px;
+    padding:60px 0 20px;
+}
+      .footer-brand {
+        color: #fff;
+        font-family: "Playfair Display", serif;
+        font-size: 1.6rem;
+      }
+      .footer-heading {
+        color: #fff;
+        font-size: 0.78rem;
+        font-weight: 700;
+        letter-spacing: 0.1em;
+        margin-bottom: 1rem;
+        text-transform: uppercase;
+      }
+      footer p,
+      footer a {
+        color: #c4d7d5;
+        font-size: 0.9rem;
+        line-height: 1.7;
+      }
+      footer a:hover {
+        color: #fff;
+      }
+      .footer-links {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      .footer-links li {
+        margin-bottom: 0.55rem;
+      }
+      .footer-bottom {
+        border-top: 1px solid rgba(255, 255, 255, 0.17);
+        color: #91b1ae;
+        font-size: 0.82rem;
+        margin-top: 3rem;
+        padding-top: 1.2rem;
+      }
+      
+      @media (max-width: 991.98px) {
+        .site-nav {
+          background: rgba(15, 41, 47, 0.76);
+        }
+        .site-nav.scrolled {
+          background: rgba(255, 255, 255, 0.97);
+        }
+        .navbar-collapse {
+          background: #fff;
+          border-radius: 8px;
+          margin-top: 0.7rem;
+          padding: 0.7rem;
+        }
+        .navbar-collapse .nav-link {
+          color: var(--ink) !important;
+        }
+        .journey-item {
+          border-bottom: 1px solid var(--line);
+          border-right: 0;
+          min-height: 78px;
+        }
+        .about-visual {
+          min-height: 420px;
+        }
+      }
+      @media (max-width: 767.98px) {
+        .hero {
+          min-height: 640px;
+          padding-bottom: 3.5rem;
+        }
+        .hero h1 {
+          font-size: 3.45rem;
+        }
+        .section {
+          padding: 4.5rem 0;
+        }
+        .altitude-note {
+          right: 12px;
+        }
+        .budget-grid {
+          padding: 1.25rem;
+        }
+      }
