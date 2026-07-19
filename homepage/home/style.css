@@ -359,34 +359,8 @@ footer {
         margin-top: 3.4rem;
         padding-top: 1.3rem;
       }
-      .back-to-top {
-        background: var(--forest);
-        border: 0;
-        border-radius: 6px;
-        bottom: 20px;
-        box-shadow: var(--shadow);
-        color: #fff;
-        display: none;
-        height: 42px;
-        position: fixed;
-        right: 20px;
-        width: 42px;
-        z-index: 20;
-      }
-      .back-to-top.show {
-        display: block;
-      }
-      .reveal {
-        opacity: 0;
-        transform: translateY(20px);
-        transition:
-          opacity 560ms ease,
-          transform 560ms ease;
-      }
-      .reveal.visible {
-        opacity: 1;
-        transform: translateY(0);
-      }
+      
+  
 
       @media (max-width: 991.98px) {
         .site-nav .navbar-collapse {

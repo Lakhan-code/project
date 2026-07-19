@@ -1,8 +1,8 @@
 
     
-const Search = document.getElementById('Search').addEventListener('click', function(){
+const Search = document.getElementById("Search").addEventListener('click', function(){
   document.getElementById("searchInput").value;
-  alert("This Feature Coming Soon")
+  alert("This Feature Coming Soon ☺️")
 
 });
 

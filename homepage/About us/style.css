@@ -231,7 +231,7 @@ section {
       
       @media (max-width: 991.98px) {
         .site-nav {
-          background: rgba(15, 41, 47, 0.76);
+           background: rgba(255, 255, 255, 0.929);
         }
         .site-nav.scrolled {
           background: rgba(255, 255, 255, 0.97);
